@@ -29,7 +29,10 @@
         </el-submenu>
         <el-menu-item index="3">关于我们</el-menu-item>
         <el-menu-item index="4"
-          ><a href="https://element-plus.gitee.io/#/zh-CN" target="_blank"
+          ><a
+            href="https://element-plus.gitee.io/#/zh-CN"
+            target="_blank"
+            style="padding: 20px 0;"
             >element-plus</a
           ></el-menu-item
         >
@@ -81,6 +84,7 @@ export default {
     };
     const goToDashboard = () => {
       router.push({ path: "/home" });
+      store.commit("changeActivePath", "1");
     };
     return {
       // activeIndex,
