@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <el-carousel indicator-position="outside">
+    <el-carousel>
       <el-carousel-item key="1">
         <img src="@/assets/images/1.jpg" alt="" />
         <!-- <h3>优秀</h3> -->
