@@ -20,3 +20,8 @@ export default {
   components: {}
 };
 </script>
+<style>
+.home {
+  height: 1500px;
+}
+</style>

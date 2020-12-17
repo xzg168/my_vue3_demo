@@ -60,12 +60,13 @@
         <router-view />
       </transition> -->
       <router-view v-slot="{ Component }">
-        <transition name="el-zoom-in-top">
+        <transition name="el-zoom-in-bottom">
           <component :is="Component" />
         </transition>
       </router-view>
+      <el-backtop :bottom="100" :visibility-height="10"> </el-backtop>
     </el-main>
-    <el-footer style="padding:0">
+    <el-footer>
       <el-row>
         <el-col :span="24">
           <div style="background-color:#545C64;padding:20px;">

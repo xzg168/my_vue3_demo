@@ -10,6 +10,11 @@ const routes = [
     redirect: "/home",
     children: [
       {
+        path: "/luck",
+        name: "luck",
+        component: () => import("../views/Luck.vue")
+      },
+      {
         path: "/home",
         name: "Home",
         component: Home
