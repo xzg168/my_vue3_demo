@@ -1,7 +1,7 @@
 <!--  -->
 <template>
   <div class="luckContainer">
-    <lucky-wheel
+    <LuckyWheel
       ref="LuckyWheel"
       width="500px"
       height="500px"
